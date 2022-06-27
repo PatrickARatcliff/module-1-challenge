@@ -1,13 +1,14 @@
+/*universsal settings*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*body includes navigation links, background image, informational sections, and aside*/
 body {
     background-color: #d9dcd6;
 }
-
+/*header logo and page navigation links*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*image of four people working in an ofiice*/
 background-image div {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ background-image div {
     background-size: cover;
     background-position: center;
 }
-
+/*information sections styling*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,7 +75,7 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*typography for informational sections*/
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,7 +93,7 @@ main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*style for aside section listing benefits of service*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -119,7 +120,7 @@ aside section img {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*footer styling including copyright and credit*/
 footer {
     padding: 30px;
     clear: both;
